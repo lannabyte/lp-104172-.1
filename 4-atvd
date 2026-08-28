@@ -1,0 +1,12 @@
+import os
+os.system('cls')
+
+primeiro_numero = int(input('Digite o primeiro numero:'))
+segundo_numero = int(input('Digite o primeiro numero:'))
+
+maior = max(primeiro_numero, segundo_numero)
+menor = min(primeiro_numero, segundo_numero)
+
+print(f'os numeros informados são {primeiro_numero} e {segundo_numero}')
+print(f'o maior numero é {maior}')
+print(f'o menor numero é {menor}')
