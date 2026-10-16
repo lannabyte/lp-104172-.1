@@ -1,0 +1,21 @@
+import os
+os.system('cls')
+
+numeros = []
+negativos = 0
+soma_positivos = 0
+
+for i in range(5):
+    numero = int(input(f"Digite o {i+1}ª numero : "))
+    numeros.append(numero)
+
+    if numero < 0:
+        negativos = negativos + 1
+
+    elif numero > 0:
+        soma_positivos = soma_positivos + numero
+        os.system('cls')
+
+print("Vetor", numeros)
+print("Quantidade de numeros negativos:", negativos)
+print("Soma dos numeros positivos:", soma_positivos)
